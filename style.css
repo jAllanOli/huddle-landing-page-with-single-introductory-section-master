@@ -128,10 +128,10 @@ footer svg.ionicon:hover {
     body {
         background-size: cover;
         background-position: 0;
-        max-height: 100vh;
-        padding: 30px;
-        justify-content: center;
+        height: 100vh;
+        padding: 40px;
         align-items: center;
+        gap: 20px;
     }
 
     main {
@@ -139,6 +139,7 @@ footer svg.ionicon:hover {
         align-items: center;
         height: 600px;
         text-align: left;
+        gap: 20px;
     }
 
     div.content {
@@ -162,5 +163,9 @@ footer svg.ionicon:hover {
         width: 60%;
         padding: 15px;
         margin-bottom: 0;
+    }
+
+    main h1 {
+        font-size: 30px;
     }
 }
