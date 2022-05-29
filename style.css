@@ -130,7 +130,7 @@ footer svg.ionicon:hover {
         background-position: 0;
         height: 100vh;
         padding: 40px;
-        align-items: center;
+        justify-content: center;
         gap: 20px;
     }
 
